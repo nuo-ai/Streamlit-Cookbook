@@ -8,4 +8,6 @@ chat = st.chat_input("Start a conversation please")
 if chat:
     st.session_state.conversation.append(chat)
     
+st.write("Session state content:")
 st.write(st.session_state)
+
